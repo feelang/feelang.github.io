@@ -5,6 +5,8 @@ lesson: ch03
 ---
 {% raw %}
 
+☞ 上一篇：[快速上手](jekyll/getting-started)
+
 Liquid 出自 Shopify 团队，和 Jekyll 一样，都是 Ruby 写成的。
 
 Liquid 是 Jekyll 内置的模板语言，有了它，我们可以在 HTML 文件中添加控制逻辑或者引用外部数据，为原本枯燥乏味的 HTML 代码增添了一丝灵动。

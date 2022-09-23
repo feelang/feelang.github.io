@@ -40,4 +40,4 @@ jekyll -v
 
 是不是非常简单？
 
-下一篇将介绍如何利用 Jekyll 快速创建一个网站。
+☞ 下一篇：[快速上手](/jekyll/getting-started)
