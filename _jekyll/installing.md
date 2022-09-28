@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll 中文教程之「安装」
-lesson: ch01
+lesson: 1
 ---
 
 ## Jekyll 简介

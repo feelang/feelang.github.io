@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll 中文教程之「快速上手」
-lesson: ch02
+lesson: 2
 ---
 
 ☞ 上一篇：[安装](/jekyll/installing)

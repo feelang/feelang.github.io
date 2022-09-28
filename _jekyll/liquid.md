@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Jekyll 中文教程之「模板语言 Liquid」
-lesson: ch03
+lesson: 3
 ---
+
 {% raw %}
 
 ☞ 上一篇：[快速上手](jekyll/getting-started)
