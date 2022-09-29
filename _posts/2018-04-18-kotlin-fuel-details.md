@@ -2,7 +2,7 @@
 layout: post
 title: Kotlin 网络库 Fuel 的设计之道
 date: 2018-04-18
-tags: Kotlin Android
+categories: Kotlin
 ---
 
 使用场景

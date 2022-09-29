@@ -2,8 +2,7 @@
 layout: post
 title: Retrofit + RxAndroid 实践总结
 date: 2016-07-06
-tags: 
- - Android
+categories: Android
 ---
 
 在接入 Retrofit + RxAndroid 之前，项目代码中主要存在如下问题：

@@ -2,7 +2,7 @@
 layout: post
 title: 「译」精通Kotlin标准函数：run、with、let、also和apply
 date: 2018-03-31
-tags: Kotlin
+categories: Kotlin
 ---
 
 > 原文地址：https://medium.com/@elye.project/mastering-kotlin-standard-functions-run-with-let-also-and-apply-9cd334b0ef84

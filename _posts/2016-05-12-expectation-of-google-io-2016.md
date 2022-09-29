@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Google IO 2016 看点
-date: 2016-05-12 16:54:19
-tags: Google
+date: 2016-05-12
+categories: Google
 ---
 
 预测一下 Google IO 2016

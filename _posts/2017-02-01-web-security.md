@@ -2,8 +2,7 @@
 layout: post
 title: 架构笔记之安全
 date: 2017-02-01
-tags: 
- - Web
+categories: Web
 ---
 
 数字摘要

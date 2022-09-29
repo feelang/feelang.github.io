@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Mockito 详解（四）MockitoSession
-date: 2017-07-25 11:25:13
-tags: 
- - Mockito
- - UnitTest
+date: 2017-07-25
+categories: test mockito
 ---
 
 `MockitoSession`表示一次mock会话，这个会话通常是一次测试方法的执行。

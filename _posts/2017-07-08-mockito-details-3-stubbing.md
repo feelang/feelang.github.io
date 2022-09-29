@@ -2,9 +2,7 @@
 layout: post
 title: Mockito 详解（三）插桩
 date: 2017-07-08
-tags:
-  - Mockito
-  - UnitTest
+categories: test mockito
 ---
 
 每次插桩（Stubbing）都会产生一个 Invocation，本篇从 Invocation 着手，重点分析插桩的原理。

@@ -2,7 +2,7 @@
 layout: post
 title: Dart更近一步，Sky会一统江湖吗？
 date: 2015-05-05
-tags: Dart
+categories: Dart
 ---
 
 从接触编程到现在，除了搞过几天JQuery，几乎没怎么写过Javascript，刚刚看了两篇介绍 ECMAScript6 的文章，突然觉得没写过JS也没什么好遗憾的。

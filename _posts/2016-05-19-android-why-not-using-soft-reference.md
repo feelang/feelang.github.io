@@ -2,7 +2,7 @@
 layout: post
 title: SoftReference 为什么被 Android “放弃”
 date: 2016-05-19
-tags: Android
+categories: Android
 ---
 
 JDK 中除了默认的 Strong Reference 之外，还有三个其他的 Reference：

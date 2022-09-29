@@ -2,7 +2,7 @@
 layout: post
 title: Kotlin 中 var、val、const 关键字解析
 date: 2018-03-28
-tags: Kotlin
+categories: Kotlin
 ---
 
 昨天公众号后台收到一位小伙伴的留言询问，他对于 Kotlin 为何没有 Java 的 `final` 关键字感到困惑，这应该是很多初学者都会遇到的问题，所以我就写了这篇博文从更底层的角度来解析 Kotlin 声明变量时用到的三个关键字：`var`、`val` 和 `const`。

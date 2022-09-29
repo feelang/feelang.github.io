@@ -2,9 +2,7 @@
 layout: post
 title: Mockito 详解（五）MockitoAnnotation
 date: 2017-07-26 12:35:04
-tags: 
- - Mockito
- - UnitTest
+categories: test mockito
 ---
 
 MockitoAnnotations负责初始化`@Mock`、`@Spy`、`@Captor`、`@InjectMocks`等注解。

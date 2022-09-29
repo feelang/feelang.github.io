@@ -2,8 +2,7 @@
 layout: post
 title: Android 强升逻辑和实现
 date: 2017-03-21
-tags: 
- - Android
+categories: android
 ---
 
 “强制升级”会中断用户操作，阻碍正常使用，看似是一个不光彩的行为，但是智者千虑必有一失，我们无法保证 App 的正确性，在某些紧急情况下，强制升级还是非常必要的，而且接入的时间越早越好。

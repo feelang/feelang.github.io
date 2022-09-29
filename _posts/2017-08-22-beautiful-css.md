@@ -2,7 +2,7 @@
 layout: post
 title: Beautiful CSS
 date: 2017-08-22
-tags: CSS
+categories: CSS
 ---
 
 BACKGROUND

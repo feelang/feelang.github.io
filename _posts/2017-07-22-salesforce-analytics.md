@@ -2,7 +2,7 @@
 layout: post
 title: SalesforceAnalytics 源码分析
 date: 2017-7-22
-tags: Android
+categories: Android
 ---
 
 [SalesforceAnalytics][SalesforceAnalytics] 可分为两个部分：
