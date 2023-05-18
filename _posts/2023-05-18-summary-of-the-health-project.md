@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: single
+classes: wide
+author_profile: true
 title: Health 项目技术总结
+comments: true
 date: 2023-05-18
 categories: Frontend
 ---

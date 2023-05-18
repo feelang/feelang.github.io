@@ -18,14 +18,45 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FeeLang
+minimal_mistakes_skin    : "default"
+title                    : "feelang 技术博客"
+title-separator          : "-"
+subtitle                 : "分享全栈开发知识"
+name                     : "feelang"
+description              : 
 email: feelangcpp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Full-Stack Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username: feelang
+comments:
+  provider: "disqus"
+  disqus:
+    shortname            : 'feelang-github-io'
+author:
+  name                   : "feelang"
+  avatar                 :
+  bio                    : "一个喜欢做知识类产品的自由职业者"
+  location               : "杭州"
+  email                  : "feelangcpp@gmail.com"
+  links:
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/feelang"
+    - label: "微博"
+      icon: "fab fa-fw fa-weibo"
+      url: "https://weibo.com/u/1670598115"
+    - label: "小红书"
+      url: "https://www.xiaohongshu.com/user/profile/642b086c000000001102278d"
+footer:
+  links:
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/feelang"
+    - label: "微博"
+      icon: "fab fa-fw fa-weibo"
+      url: "https://weibo.com/u/1670598115"
+
 
 # Collections
 collections:
@@ -34,7 +65,7 @@ collections:
     sort_by: lesson
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
