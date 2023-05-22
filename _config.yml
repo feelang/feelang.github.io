@@ -29,6 +29,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Full-Stack Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://feelang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-EMB5R38212"
+    anonymize_ip: false # default
 comments:
   provider: "disqus"
   disqus:
@@ -56,13 +61,17 @@ footer:
     - label: "微博"
       icon: "fab fa-fw fa-weibo"
       url: "https://weibo.com/u/1670598115"
-
+include:
+  - _pages
 
 # Collections
 collections:
   jekyll:
     output: true
     sort_by: lesson
+  products:
+    output: true
+    permalink: /:collection/:path/
 
 # Build settings
 theme: minimal-mistakes-jekyll

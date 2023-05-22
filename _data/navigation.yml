@@ -1,0 +1,7 @@
+main:
+  - title: "独立产品"
+    url: /products/
+  - title: "Jekyll教程"
+    url: /jekyll/
+  - title: "关于"
+    url: /about/

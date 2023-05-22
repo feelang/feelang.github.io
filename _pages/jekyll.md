@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: collection
 title: Jekyll
-permalink: /jekyll
+permalink: /jekyll/
 ---
 
 {% for lesson in site.jekyll%}
