@@ -1,6 +1,6 @@
 main:
   - title: "博文合集"
-    url: /Posts/
+    url: /posts/
   - title: "独立产品"
     url: /products/
   - title: "技术教程"
