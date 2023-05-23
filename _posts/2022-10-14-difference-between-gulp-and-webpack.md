@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Gulp 和 Webpack 有什么区别？
 date: 2022-10-14
 categories: frontend

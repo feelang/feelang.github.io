@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Sass 和 Less 的用法和比较
 date: 2018-1-25
 categories: CSS

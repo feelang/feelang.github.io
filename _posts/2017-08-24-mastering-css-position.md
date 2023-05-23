@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 精通 CSS 之 position
 date: 2017-08-24 08:42:17
 categories: CSS

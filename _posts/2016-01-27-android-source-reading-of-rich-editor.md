@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: RichEditor 源码解析
 date: 2016-01-27 10:09:06
 categories: Android

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 如何获取 Android 设备的CPU核数、时钟频率以及内存大小
 date: 2015-06-20
 categories: Android

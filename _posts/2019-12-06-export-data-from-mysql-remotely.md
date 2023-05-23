@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 用命令行将远程服务器的 MySQL 表数据导出到本地
 date: 2019-12-06
 categories: mysql

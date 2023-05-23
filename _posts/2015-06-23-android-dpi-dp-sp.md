@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 详解 Android 开发中常用的 DPI / DP / SP
 date: 2015-06-23
 categories: Android

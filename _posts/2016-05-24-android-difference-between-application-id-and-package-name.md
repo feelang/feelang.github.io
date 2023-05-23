@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: ApplicationId 与 PackageName 的区别
 date: 2016-05-24 21:02:45
 categories: Android

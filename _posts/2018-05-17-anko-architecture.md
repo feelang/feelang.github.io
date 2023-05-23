@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Anko 的设计之道
 date: 2018-05-17
 categories: Kotlin Android

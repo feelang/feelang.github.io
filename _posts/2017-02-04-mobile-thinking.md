@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title: 关于 App 开发的一些思考
 date: 2017-02-04
-categories: thinking mobile
+categories: thinking
 ---
 
 春节假期在家看了两本关于 Web 架构方面的书，虽然有很多地方没看懂，有的地方似懂非懂，但是俗话说，他山之石、可以攻玉，知识是相通的，试着总结一下对 APP 开发的一些启示。

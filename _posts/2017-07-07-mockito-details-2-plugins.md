@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title: Mockito 详解（二）插件机制
 date: 2017-07-07
-categories: test mockito
+categories: mockito
 ---
 
 Mockito 通过插件形式对外提供了扩展能力，本篇主要分析其插件加载原理。

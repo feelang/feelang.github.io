@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title: Mockito 详解（五）MockitoAnnotation
 date: 2017-07-26 12:35:04
-categories: test mockito
+categories: mockito
 ---
 
 MockitoAnnotations负责初始化`@Mock`、`@Spy`、`@Captor`、`@InjectMocks`等注解。

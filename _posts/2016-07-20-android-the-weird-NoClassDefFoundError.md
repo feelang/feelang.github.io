@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 诡异的问题 NoClassDefFoundError
 date: 2016-07-20 21:33:33
 categories: android

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 写 Gradle 插件的一点经验
 date: 2016-09-14 17:40:06
 categories: Android

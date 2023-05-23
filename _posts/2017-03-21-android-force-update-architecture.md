@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Android 强升逻辑和实现
 date: 2017-03-21
 categories: android

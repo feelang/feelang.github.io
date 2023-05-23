@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Beautiful CSS
 date: 2017-08-22
 categories: CSS

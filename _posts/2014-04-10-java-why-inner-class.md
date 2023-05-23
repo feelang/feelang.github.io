@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 为什么要使用内部类
+classes: wide
 date: 2014-04-10
 categories: Java
 ---

@@ -1,10 +1,9 @@
 ---
-layout: post
+layout: single
 title: 图解 Retrofit 之 ServiceMethod
 date: 2016-07-10
 categories: Android
 ---
-{% raw %}
 
 通过 [Retrofit + RxAndroid 实践总结](http://www.liangfei.me/2016/07/06/android-retrofit-and-rxjava)，我们已经了解到了 Retrofit 的基本用法，为了知其所以然，我们以图解加源码的方式从 Service Method 入手，逐步拨开 Retrofit 的神秘面纱。
 
@@ -78,7 +77,7 @@ private void validatePathName(int p, String name) {
   }
   // Verify URL replacement name is actually present in the URL path.
   if (!relativeUrlParamNames.contains(name)) {
-    throw parameterError(p, "URL \"%s\" does not contain \"{%s}\".", relativeUrl, name);
+    throw parameterError(p, "URL \"%s\" does not contain \"{\%s}\".", relativeUrl, name);
   }
 }
 ```
@@ -125,5 +124,3 @@ Retrofit retrofit = new Retrofit.Builder()
 `addCallAdapterFactory` 方法传递给 `Retrofit`，而 `create` 方法中 `adapt` 的执行者却是 `ServiceMethod`，也就是说 `ServiceMethod` 的 `CallAdapter` 是由 `Retrofit` 提供的，两者的交互关系如下图所示：  
 
 ![](/assets/imgs/retrofit_and_service_method.png)
-
-{% endraw %}

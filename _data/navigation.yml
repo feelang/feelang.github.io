@@ -1,7 +1,31 @@
 main:
+  - title: "博文合集"
+    url: /Posts/
   - title: "独立产品"
     url: /products/
-  - title: "Jekyll教程"
-    url: /jekyll/
+  - title: "技术教程"
+    url: /tutorials/
+  - title: "工具收藏"
+    url: /tools/
   - title: "关于"
     url: /about/
+
+jekyll:
+  - title: "安装"
+    url: /tutorials/jekyll/installing
+  - title: "快速上手"
+    url: /tutorials/jekyll/getting-started/
+  - title: "模板语言 Liquid"
+    url: /tutorials/jekyll/liquid/
+  - title: "Front Matter & YAML"
+    url: /tutorials/jekyll/font-matter-and-yaml/
+  - title: "布局管理"
+    url: /tutorials/jekyll/layouts/
+  - title: "模块化"
+    url: /tutorials/jekyll/includes/
+  - title: "博客功能"
+    url: /tutorials/jekyll/blogs/
+  - title: "合集管理"
+    url: /tutorials/jekyll/collections/
+  - title: "数据文件"
+    url: /tutorials/jekyll/data-files/

@@ -1,13 +1,7 @@
 ---
+title: Jekyll中文教程
 layout: collection
-title: Jekyll
-permalink: /jekyll/
+permalink: /tutorials/jekyll/
+collection: jekyll
+# entries_layout: grid
 ---
-
-{% for lesson in site.jekyll%}
-    <h2>
-        <a href="{{lesson.url}}">
-            {{ lesson.title }}
-        </a>
-    </h2>
-{% endfor %}

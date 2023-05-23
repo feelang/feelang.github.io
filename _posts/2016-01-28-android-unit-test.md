@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Android 单元测试
 date: 2016-01-28 11:24:30
 categories: Android

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 用 bytecode 来看 try-catch-finally 和 return
 date: 2014-10-19
 Categories: Java

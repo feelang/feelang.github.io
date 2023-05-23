@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 彻底搞懂 npm、npx、yarn
 date: 2020-11-05
 categories: tools

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Android 中 View 炸裂特效的实现分析
 date: 2015-09-30
 categories: Android

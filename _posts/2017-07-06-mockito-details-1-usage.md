@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: single
 title: Mockito 详解（一）基本用法
 date: 2017-07-06
-categories: test mockito
+categories: mockito
 ---
 
 Mockito 是一个用于 Java 单测的 Mock 框架，除了 JUnit 之外，它还可以用于其他单测框架（例如：TestNG）。`Mockito` 可以改变一个类或者对象的行为，能够让我们更加专注地去测试代码逻辑，省去了构造数据所花费的努力。

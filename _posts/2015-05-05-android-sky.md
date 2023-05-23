@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Dart更近一步，Sky会一统江湖吗？
 date: 2015-05-05
 categories: Dart

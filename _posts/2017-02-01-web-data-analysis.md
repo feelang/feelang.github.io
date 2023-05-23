@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 架构笔记之数据分析
 date: 2017-02-01
 categories: data

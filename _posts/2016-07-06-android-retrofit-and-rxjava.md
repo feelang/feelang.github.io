@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Retrofit + RxAndroid 实践总结
 date: 2016-07-06
 categories: Android

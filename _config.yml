@@ -19,28 +19,30 @@
 # in the templates via {{ site.myvariable }}.
 
 minimal_mistakes_skin    : "default"
-title                    : "feelang 技术博客"
+
+# Site settings
+locale                   : "zh"
+title                    : "feelang的技术博客"
 title-separator          : "-"
 subtitle                 : "分享全栈开发知识"
 name                     : "feelang"
-description              : 
-email: feelangcpp@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Full-Stack Developer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://feelang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description              : "热衷知识类小产品的全栈工程师"
+email                    : feelangcpp@gmail.com
+baseurl                  : "" # the subpath of your site, e.g. /blog
+url                      : "https://feelang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+og_image                 : /assets/images/site-logo.png
 analytics:
-  provider: "google-gtag"
+  provider               : "google-gtag"
   google:
-    tracking_id: "G-EMB5R38212"
-    anonymize_ip: false # default
+    tracking_id          : "G-EMB5R38212"
+    anonymize_ip         : false # default
 comments:
-  provider: "disqus"
+  provider               : "disqus"
   disqus:
     shortname            : 'feelang-github-io'
 author:
   name                   : "feelang"
-  avatar                 :
+  avatar                 : "/assets/images/site-logo.png"
   bio                    : "一个喜欢做知识类产品的自由职业者"
   location               : "杭州"
   email                  : "feelangcpp@gmail.com"
@@ -51,6 +53,10 @@ author:
     - label: "微博"
       icon: "fab fa-fw fa-weibo"
       url: "https://weibo.com/u/1670598115"
+    - label: "CSDN"
+      url: "https://blog.csdn.net/feelang"
+    - label: "掘金"
+      url: "https://juejin.cn/user/2805609405883607"
     - label: "小红书"
       url: "https://www.xiaohongshu.com/user/profile/642b086c000000001102278d"
 footer:
@@ -64,11 +70,41 @@ footer:
 include:
   - _pages
 
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+  # _collection of jekyll
+  - scope:
+      path: ""
+      type: jekyll
+    values:
+      layout: single
+      toc: true
+      toc_label: '目录'
+      toc_sticky: true
+      author_profile: false
+      # share: true
+      sidebar:
+        nav: "jekyll"
+
 # Collections
 collections:
   jekyll:
     output: true
     sort_by: lesson
+    permalink: /tutorials/:collection/:path/
   products:
     output: true
     permalink: /:collection/:path/

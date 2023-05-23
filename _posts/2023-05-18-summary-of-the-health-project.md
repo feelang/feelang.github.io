@@ -2,9 +2,11 @@
 layout: single
 classes: wide
 author_profile: true
-title: Health 项目技术总结
+title: Health 项目技术总结（Next.js + AntD）
 comments: true
 toc: true
+toc_label: '目录'
+toc_sticky: true
 date: 2023-05-18
 categories: Frontend
 ---
@@ -16,7 +18,7 @@ categories: Frontend
 这个项目用的是 `next.js`，也是 `react` 官方推荐的。今天才知道原来 react 已经升级改版，我之前掌握的技能早已过时。
 
 * React 官方推荐入口 => [Start a New React Project](https://react.dev/learn/start-a-new-react-project)
-* [Next.js](https://nextjs.org/)
+* Next.js 官网入口 => [Next.js](https://nextjs.org/)
 
 第一次用 `next.js`，不了解技术细节，不过从使用感受来说，还不错，用起来很方便。
 
@@ -35,6 +37,8 @@ categories: Frontend
 继续翻文档，结果云里雾里，根本看不懂。
 
 灵机一动，不如去看看视频教程，找到了 [Next.js App Router: Routing, Data Fetching, Caching](https://www.youtube.com/watch?v=gSSsZReIFRk)。
+
+{% include video id="gSSsZReIFRk" provider="youtube" %}
 
 原来在 `next.js` 项目中，只需要在 `app` 目录下新建一个文件夹就可以自动生成路由，实在方便。
 

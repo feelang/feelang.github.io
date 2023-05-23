@@ -1,7 +1,7 @@
 ---
-layout: post
 title: 怎样继承一个内部类
 date: 2014-05-18
+classes: wide
 categories: Java
 ---
 

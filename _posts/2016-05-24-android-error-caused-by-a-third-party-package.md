@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 引入三方包导致 Theme 失效
 date: 2016-05-24
 categories: Android

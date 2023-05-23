@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title: Kotlin 实战之 Fuel 的高阶函数
 date: 2018-04-10 14:53:45
-categories: Kotlin Android
+categories: Kotlin
 ---
 
 [Fuel](https://github.com/kittinunf/Fuel) 是一个用 Kotlin 写的网络库，与 OkHttp 相比较，它的代码结构比较简单，但是它的巧妙之处在于充分利用了 [Kotlin 的语言特性](https://github.com/LyndonChin/kotlin-docs-zh)，所以代码看上去干净利落。

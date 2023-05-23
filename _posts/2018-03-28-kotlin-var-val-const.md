@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Kotlin 中 var、val、const 关键字解析
 date: 2018-03-28
 categories: Kotlin
