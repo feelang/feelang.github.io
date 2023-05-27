@@ -21,7 +21,7 @@
 minimal_mistakes_skin    : "default"
 
 # Site settings
-locale                   : "zh"
+locale                   : "zh-CN"
 title                    : "feelang的技术博客"
 title-separator          : "-"
 subtitle                 : "分享全栈开发知识"
