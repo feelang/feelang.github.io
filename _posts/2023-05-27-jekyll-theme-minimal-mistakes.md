@@ -18,14 +18,14 @@ date: 2023-05-27
 
 ## 关于 Minimal Mistakes
 
-* Github => https://github.com/mmistakes/minimal-mistakes
-* Website => https://mmistakes.github.io/minimal-mistakes/
+* [Github](https://github.com/mmistakes/minimal-mistakes)
+* [Website](https://mmistakes.github.io/minimal-mistakes)
 
 它的官网使用的便是这个主题，视觉效果还行，适合 startup 用，简单省事。
 
 ## 网页吊顶（Masthead）
 
-* 文档 => https://mmistakes.github.io/minimal-mistakes/docs/navigation/
+* [文档](https://mmistakes.github.io/minimal-mistakes/docs/navigation)
 
 在 `_data` 文件夹下新建一个 `navigation.yml` 文件即可。
 
@@ -61,7 +61,7 @@ analytics:
 
 我一直使用 Disqus，这次也不例外。
 
-* 官网入口 => https://disqus.com/
+* [官网入口](https://disqus.com)
     * `Site Admin` => `Settings` => `Shortname`
 
 然后继续在 `_config.yml` 文件中添加配置：
@@ -75,7 +75,7 @@ comments:
 
 ## 作者信息（Author）
 
-文档 => https://mmistakes.github.io/minimal-mistakes/docs/authors/
+* 直接查看[官方文档](https://mmistakes.github.io/minimal-mistakes/docs/authors)
 
 ## Page 文件统一管理
 
