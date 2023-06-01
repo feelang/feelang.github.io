@@ -47,28 +47,34 @@ author:
   location               : "杭州"
   email                  : "feelangcpp@gmail.com"
   links:
-    - label: "Github"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/feelang"
-    - label: "微博"
-      icon: "fab fa-fw fa-weibo"
-      url: "https://weibo.com/u/1670598115"
-    - label: "CSDN"
-      url: "https://blog.csdn.net/feelang"
-    - label: "掘金"
-      url: "https://juejin.cn/user/2805609405883607"
-    - label: "小红书"
-      url: "https://www.xiaohongshu.com/user/profile/642b086c000000001102278d"
+    - label              : "Github"
+      icon               : "fab fa-fw fa-github"
+      url                : "https://github.com/feelang"
+    - label              : "微博"
+      icon               : "fab fa-fw fa-weibo"
+      url                : "https://weibo.com/u/1670598115"
+    - label              : "CSDN"
+      url                : "https://blog.csdn.net/feelang"
+    - label              : "掘金"
+      url                : "https://juejin.cn/user/2805609405883607"
+    - label              : "小红书"
+      url                : "https://www.xiaohongshu.com/user/profile/642b086c000000001102278d"
 footer:
   links:
-    - label: "Github"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/feelang"
-    - label: "微博"
-      icon: "fab fa-fw fa-weibo"
-      url: "https://weibo.com/u/1670598115"
+    - label              : "Github"
+      icon               : "fab fa-fw fa-github"
+      url                : "https://github.com/feelang"
+    - label              : "微博"
+      icon               : "fab fa-fw fa-weibo"
+      url                : "https://weibo.com/u/1670598115"
 include:
   - _pages
+
+# Search
+search                   : true
+lunr:
+  search_within_pages    : true
+  search_full_content    : false
 
 defaults:
   # _pages
