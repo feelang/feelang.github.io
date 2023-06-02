@@ -2,7 +2,9 @@
 layout: single
 title: 精通 CSS 之 position
 date: 2017-08-24 08:42:17
-categories: CSS
+categories: Programming
+tags:
+  - CSS
 ---
 
 HTML的“正常”布局称为 __document flow__，在这种 normal flow 下，元素按照从左到右（`inline block`）、从上到下（`block`）进行排列。

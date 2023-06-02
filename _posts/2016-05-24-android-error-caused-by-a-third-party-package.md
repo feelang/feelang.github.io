@@ -2,7 +2,9 @@
 layout: single
 title: 引入三方包导致 Theme 失效
 date: 2016-05-24
-categories: Android
+categories: Programming
+tags:
+  - Android
 ---
 
 引入一个三方包之后导致 App 主题失效，定位了一个下午，做个记录。

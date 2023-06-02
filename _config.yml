@@ -84,14 +84,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      classes: wide
       author_profile: true
-  # _collection of jekyll
+      comments: true
+      toc: true
+      toc_label: '目录'
+      toc_sticky: true
+  # _jekyll (collection)
   - scope:
       path: ""
       type: jekyll

@@ -2,7 +2,10 @@
 layout: single
 title: Anko 的设计之道
 date: 2018-05-17
-categories: Kotlin Android
+categories: Programming
+tags:
+  - Android
+  - Kotlin
 ---
 
 [Anko](https://github.com/kotlin/anko) 是一个完全基于 Kotlin 设计的 Android 三方库，名字来自于 Android Kotlin 这两个单词的前两个字母。Anko 试图建立一套新的 Android 开发范式， 虽然不会成为主流，但是它的设计思想值得我们借鉴。

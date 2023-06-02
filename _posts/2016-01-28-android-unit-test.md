@@ -2,7 +2,10 @@
 layout: single
 title: Android 单元测试
 date: 2016-01-28 11:24:30
-categories: Android
+categories: Programming
+tags:
+  - Android
+  - Unit Test
 ---
 
 Android Studio 和 Android Gradle Plugin 可以让我们脱离 `android.jar` 直接在 development machine 上执行单元测试。

@@ -2,7 +2,9 @@
 layout: single
 title: ApplicationId 与 PackageName 的区别
 date: 2016-05-24 21:02:45
-categories: Android
+categories: Programming
+tags:
+  - Android
 ---
 
 在 _Android Gradle Build System_ 诞生之前，**PackageName** 就是 App 的进程 id。

@@ -2,7 +2,10 @@
 layout: single
 title: SalesforceAnalytics 源码分析
 date: 2017-7-22
-categories: Android
+categories: Programming
+tags:
+  - Android
+  - Salesforce
 ---
 
 [SalesforceAnalytics][SalesforceAnalytics] 可分为两个部分：

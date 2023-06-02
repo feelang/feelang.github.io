@@ -2,7 +2,9 @@
 layout: single
 title: 用 bytecode 来看 try-catch-finally 和 return
 date: 2014-10-19
-Categories: Java
+Categories: Programming
+tags:
+  - Java
 ---
 
 最近一直在看 Java 虚拟机规范，发现直接分析 bytecode 更能加深对 Java 语言的理解。

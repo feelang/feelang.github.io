@@ -2,7 +2,9 @@
 layout: single
 title: 架构笔记之数据分析
 date: 2017-02-01
-categories: data
+categories: Notes
+tags:
+  - Data Analysis
 ---
 
 蚂蚁积分是一个数据产品，这个简单的积分体现的是**风控**和**信用**，分数越高表明放贷的风险越小、履约的概率越大，而积分背后的风控体系和信用体系都是来自数据的采集和分析，所以数据是最重要的。

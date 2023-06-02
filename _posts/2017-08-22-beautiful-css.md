@@ -2,7 +2,9 @@
 layout: single
 title: Beautiful CSS
 date: 2017-08-22
-categories: CSS
+categories: Programming
+tags:
+  - CSS
 ---
 
 BACKGROUND

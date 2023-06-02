@@ -1,14 +1,12 @@
 ---
 layout: single
 classes: wide
-author_profile: true
 title: Health 项目技术总结（Next.js + AntD）
-comments: true
-toc: true
-toc_label: '目录'
-toc_sticky: true
-date: 2023-05-18
-categories: Frontend
+categories: Programming
+tags: 
+  - 前端
+  - Next.js
+  - AntD
 ---
 
 好长一段时间没写前端，很多知识点都忘掉了，为了防止遗忘，趁着项目刚结束，赶紧总结一下。

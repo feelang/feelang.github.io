@@ -2,7 +2,9 @@
 layout: single
 title: 诡异的问题 NoClassDefFoundError
 date: 2016-07-20 21:33:33
-categories: android
+categories: Programming
+tags:
+  - Android
 ---
 
 今天又遇到一个比较难搞的问题，记一下流水账。

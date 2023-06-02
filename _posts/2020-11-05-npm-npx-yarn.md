@@ -2,7 +2,9 @@
 layout: single
 title: 彻底搞懂 npm、npx、yarn
 date: 2020-11-05
-categories: tools
+categories: Programming
+tags:
+  - 前端
 ---
 
 要彻底搞清楚 npm、npx、yarn 的区别，先记住下面两条：

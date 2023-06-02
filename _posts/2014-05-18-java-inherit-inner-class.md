@@ -2,7 +2,9 @@
 title: 怎样继承一个内部类
 date: 2014-05-18
 classes: wide
-categories: Java
+categories: Programming
+tags:
+  - Java
 ---
 
 定义一个内部类时，这个内部类会有一个隐式引用 (implicit reference) 指向外部类的实例。例如下面的代码：

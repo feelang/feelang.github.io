@@ -1,6 +1,6 @@
 ---
 layout: single
-title: About Feelang
+title: 关于
 classes: wide
 permalink: /about/
 author_profile: true

@@ -2,7 +2,9 @@
 layout: single
 title: 写 Gradle 插件的一点经验
 date: 2016-09-14 17:40:06
-categories: Android
+categories: Programming
+tags:
+  - Gradle
 ---
 
 本着简单易用的原则，参考[android-resource-remover][android-resource-remover] 写了一个删除无用资源的 Gradle 插件 - [clean-unused-resources-gradle-plugin](https://github.com/YouzanMobile/clean-unused-resources-gradle-plugin)，结果微博发出来不到10分钟，[陈启超][chen-qi-chao]就告诉我 AS2.0+ 已经提供了[此功能](http://stackoverflow.com/questions/6373482/remove-all-unused-resources-from-an-android-project)。天哪，为了纪念这个短命无用的轮子，只好写篇博客，把造轮子的过程记录下来，也算对别人有点用处。

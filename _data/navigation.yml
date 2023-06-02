@@ -1,12 +1,12 @@
 main:
-  - title: "技术博文"
-    url: /posts/
   - title: "独立产品"
     url: /products/
   - title: "技术教程"
     url: /tutorials/
-  - title: "工具收藏"
-    url: /tools/
+  - title: "分类"
+    url: /categories/
+  - title: "标签"
+    url: /tags/
   - title: "关于"
     url: /about/
 

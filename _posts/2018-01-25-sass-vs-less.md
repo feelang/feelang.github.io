@@ -2,7 +2,11 @@
 layout: single
 title: Sass 和 Less 的用法和比较
 date: 2018-1-25
-categories: CSS
+categories: Programming
+tags:
+  - CSS
+  - Sass
+  - Less
 ---
 
 [Sass](http://sass-lang.com/) 和 [Less](http://lesscss.org/) 是两种 CSS 预处理器，扩展了 CSS 语法，目的都是为了让 CSS 更容易维护。

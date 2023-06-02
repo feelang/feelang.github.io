@@ -2,7 +2,9 @@
 layout: single
 title: 详解 Android 开发中常用的 DPI / DP / SP
 date: 2015-06-23
-categories: Android
+categories: Programming
+tags:
+  - Android
 ---
 
 Android的碎片化已经被喷了好多年，随着国内手机厂商的崛起，碎片化也越来越严重，根据[OpenSignal的最新调查](http://thenextweb.com/mobile/2014/08/21/18796-different-android-devices-according-opensignals-latest-fragmentation-report/)，2014年市面上有18796种不同的Android设备，作为开发者，一个无法回避的难题就是需要适配各种各样奇奇怪怪的机型。

@@ -2,7 +2,9 @@
 layout: single
 title: 怎样在静态方法中使用 synchronized
 date: 2015-11-9
-categories: Java
+categories: Programming
+tags:
+  - Java
 ---
 
 synchronized 的实现方式

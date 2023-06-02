@@ -7,3 +7,5 @@ vendor
 assets/.DS_Store
 
 venv
+
+Gemfile.lock

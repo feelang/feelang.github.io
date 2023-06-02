@@ -1,13 +1,11 @@
 ---
 layout: single
-classes: wide
-author_profile: true
 title: Jekyll 默认主题 minima 使用总结
-comments: true
-toc: true
-toc_label: '目录'
-toc_sticky: true
-date: 2023-06-01
+categories: Tools
+tags:
+  - Jekyll
+  - minima
+  - CSS
 ---
 
 `minima` 是 Jekyll 的默认主题，简洁大方，[https://liangfei.me](https://liangfei.me) 用的就是它。

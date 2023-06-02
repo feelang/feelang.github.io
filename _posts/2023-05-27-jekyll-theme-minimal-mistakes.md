@@ -1,13 +1,11 @@
 ---
 layout: single
-classes: wide
-author_profile: true
 title: Jekyll 主题 Minimal Mistakes 使用总结
-comments: true
-toc: true
-toc_label: '目录'
-toc_sticky: true
-date: 2023-05-27
+categories: Tools
+tags:
+  - Jekyll
+  - Minimal Mistakes
+  - Google Analytics
 ---
 
 虽然我使用 Jekyll 已经有一段时间了，但一直没注意到 **Minimal Mistakes** 这个主题的存在。

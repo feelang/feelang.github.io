@@ -2,6 +2,9 @@
 layout: single
 title: 有赞自有 APP 的 OAuth2 授权模型分析
 date: 2017-07-14
+categories: Network
+tags:
+  - OAuth2
 ---
 
 有赞自有 APP（微商城、微小店）的 OAuth2 类型是 **Resource Owner Password Credentials**。

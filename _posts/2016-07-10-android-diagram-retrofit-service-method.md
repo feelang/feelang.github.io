@@ -2,7 +2,9 @@
 layout: single
 title: 图解 Retrofit 之 ServiceMethod
 date: 2016-07-10
-categories: Android
+categories: Programming
+tags:
+  - Android
 ---
 
 通过 [Retrofit + RxAndroid 实践总结](http://www.liangfei.me/2016/07/06/android-retrofit-and-rxjava)，我们已经了解到了 Retrofit 的基本用法，为了知其所以然，我们以图解加源码的方式从 Service Method 入手，逐步拨开 Retrofit 的神秘面纱。

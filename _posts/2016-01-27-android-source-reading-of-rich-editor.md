@@ -2,7 +2,9 @@
 layout: single
 title: RichEditor 源码解析
 date: 2016-01-27 10:09:06
-categories: Android
+categories: Programming
+tags: 
+  - Android
 ---
 
 `RichEditor` 是一个继承自 `WebView` 的自定义 view。

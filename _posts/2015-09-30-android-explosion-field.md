@@ -2,7 +2,9 @@
 layout: single
 title: Android 中 View 炸裂特效的实现分析
 date: 2015-09-30
-categories: Android
+categories: Programming
+tags:
+  - Android
 ---
 
 前几天微博上被一个很优秀的 Android 开源组件刷屏了 - [ExplosionField](https://github.com/tyrantgit/ExplosionField)，效果非常酷炫，有点类似 MIUI 卸载 APP 时的动画，先来感受一下。

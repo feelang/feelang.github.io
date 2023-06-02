@@ -2,7 +2,9 @@
 title: 为什么要使用内部类
 classes: wide
 date: 2014-04-10
-categories: Java
+categories: Programming
+tags: 
+  - Java
 ---
 
 我们经常会在一个类中定义一个内部类 (inner class)，这个内部类可以继承也可以实现接口，因为有一个隐式的引用 (implicit reference) 指向外部类 (outer class)，所以我们可以直接访问并操作外部类，因此可以认为内部类是外部类的一个窗口。

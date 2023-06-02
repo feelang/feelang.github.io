@@ -2,7 +2,8 @@
 layout: single
 title: Gulp 和 Webpack 有什么区别？
 date: 2022-10-14
-categories: frontend
+categories: Programming
+tags: 前端
 ---
 
 我在深入学习 Sass 时了解到 Gulp 是一个 task runner，随即产生一个疑问：Webpack 是什么呢，它和 Gulp 的区别是什么？

@@ -2,7 +2,10 @@
 layout: single
 title: Google IO 2016 看点
 date: 2016-05-12
-categories: Google
+categories: News
+tags:
+  - Google IO
+
 ---
 
 预测一下 Google IO 2016
