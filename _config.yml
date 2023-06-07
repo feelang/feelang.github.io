@@ -31,6 +31,7 @@ email                    : feelangcpp@gmail.com
 baseurl                  : "" # the subpath of your site, e.g. /blog
 url                      : "https://feelang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 og_image                 : /assets/images/site-logo.png
+timezone:                : Asia/Shanghai
 analytics:
   provider               : "google-gtag"
   google:
