@@ -5,6 +5,7 @@ categories: Tools
 tags:
   - Jekyll
   - Minimal Mistakes
+classes: wide
 ---
 
 {% raw %}
@@ -21,7 +22,7 @@ Minimal Mistakes 提供了很多布局文件，为了更好地使用它们，这
 
 我们从第一个标签 `<html>` 开始分析：
 
-```Liquid
+```html
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
 ```
 
@@ -29,7 +30,7 @@ Minimal Mistakes 提供了很多布局文件，为了更好地使用它们，这
 
 然后是 `<head>` 标签：
 
-```Liquid
+```html
 <head>
   {% include head.html %}
   {% include head/custom.html %}
@@ -46,7 +47,7 @@ Minimal Mistakes 提供了很多布局文件，为了更好地使用它们，这
 
 同时也支持引入自定义 js：
 
-```Liquid
+```html
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
@@ -58,14 +59,14 @@ Minimal Mistakes 提供了很多布局文件，为了更好地使用它们，这
 
 继续往下看，`<body>` 标签：
 
-```Liquid
+```html
 {% include_cached skip-links.html %}
 {% include_cached masthead.html %}
 ```
 
 其中 `_includes/skip-links.html` 用于页面内快速跳转：
 
-```Liquid
+```html
 <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">{{ site.data.ui-text[site.locale].skip_primary_nav | default: 'Skip to primary navigation' }}</a></li>
@@ -85,13 +86,13 @@ Minimal Mistakes 提供了很多布局文件，为了更好地使用它们，这
 
 首先是展示网站 logo，其路径来源于全局配置 `site.logo`：
 
-```Liquid
+```html
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 ```
 
 用一个 `<a>` 标签包裹的 `<img>` 做展示：
 
-```Liquid
+```html
 {% unless logo_path == empty %}
   <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
 {% endunless %}
@@ -99,7 +100,7 @@ Minimal Mistakes 提供了很多布局文件，为了更好地使用它们，这
 
 logo 的右边是 `title` 和 `subtitle`，也是来自于全局配置：
 
-```Liquid
+```html
 <a class="site-title" href="{{ '/' | relative_url }}">
   {{ site.masthead_title | default: site.title }}
   {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
@@ -108,7 +109,7 @@ logo 的右边是 `title` 和 `subtitle`，也是来自于全局配置：
 
 然后是导航条：
 
-```Liquid
+```html
 <ul class="visible-links">
   {%- for link in site.data.navigation.main -%}
     <li class="masthead__menu-item">
@@ -122,7 +123,7 @@ logo 的右边是 `title` 和 `subtitle`，也是来自于全局配置：
 
 接下来是搜索按钮：
 
-```Liquid
+```html
 {% if site.search == true %}
 <button class="search__toggle" type="button">
   <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
@@ -157,7 +158,7 @@ body:hover .visually-hidden button {
 
 最后是自适应布局中的 `Toggle menu`：
 
-```Liquid
+```html
 <button class="greedy-nav__toggle hidden" type="button">
   <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
   <div class="navicon"></div>
@@ -170,7 +171,7 @@ body:hover .visually-hidden button {
 
 **子类布局占位：**
 
-```Liquid
+```html
 <div class="initial-content">
   {{ content }}
 </div>
@@ -180,7 +181,7 @@ body:hover .visually-hidden button {
 
 **搜索：**
 
-```Liquid
+```html
 {% if site.search == true %}
   <div class="search-content">
     {% include_cached search/search_form.html %}
@@ -198,7 +199,7 @@ body:hover .visually-hidden button {
 
 **footer：**
 
-```Liquid
+```html
 <div id="footer" class="page__footer">
   <footer>
     {% include footer/custom.html %}
@@ -221,7 +222,7 @@ body:hover .visually-hidden button {
 
 **scripts：**
 
-```Liquid
+```html
 {% include scripts.html %}
 ```
 
@@ -229,7 +230,7 @@ body:hover .visually-hidden button {
 
 1）自定义 js，默认使用 `/assets/js/main.min.js`：
 
-```Liquid
+```html
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
     <script src="{{ script | relative_url }}"></script>
@@ -241,7 +242,7 @@ body:hover .visually-hidden button {
 
 2）搜索
 
-```Liquid
+```html
 {% if site.search == true or page.layout == "search" %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
   {%- case search_provider -%}
@@ -257,19 +258,19 @@ body:hover .visually-hidden button {
 
 3）埋点
 
-```Liquid
+```html
 {% include analytics.html %}
 ```
 
 4）评论
 
-```Liquid
+```html
 {% include /comments-providers/scripts.html %}
 ```
 
 5）js 脚本
 
-```Liquid
+```html
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
     <script src="{{ script | relative_url }}"></script>
@@ -354,7 +355,7 @@ header:
 
 这个变量在布局源码文件 `_layouts/splash.html` 中会被用到：
 
-```Liquid
+```html
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -384,14 +385,14 @@ header:
 
 展示视频的 `include` 文件是 `_includes/page__hero-video.html`：
 
-```Liquid
+```html
 {% assign video = page.header.video %}
 {% include video id=video.id provider=video.provider danmaku=video.danmaku %}
 ```
 
 这里进一步引用了 `_include/video` 这个模块：
 
-```Liquid
+```html
 {% capture video_id %}{{ include.id }}{% endcapture %}
 {% capture video_provider %}{{ include.provider }}{% endcapture %}
 {% capture video_danmaku %}{{ include.danmaku | default: 0 }}{% endcapture %}
@@ -427,7 +428,7 @@ header:
 
 继续分析 `_layouts/splash.html` 的剩余代码：
 
-```Liquid
+```html
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -472,13 +473,13 @@ feature_row:
 
 在 `docs/_pages/home.md` 文件的末尾通过如下代码引入了 `_includes/feature_row` 文件：
 
-```Liquid
+```html
 {% include feature_row %}
 ```
 
 我们来分析一下 `_includes/feature_row` 的源码：
 
-```Liquid
+```html
 {% if include.id %}
   {% assign feature_row = page[include.id] %}
 {% else %}
@@ -489,11 +490,11 @@ feature_row:
 第一个 `assign` 没看懂，问了一下 ChatGPT，回答如下：
 
 ```
-In Jekyll, the code `{% assign feature_row = page[include.id] %}` is using the Liquid templating language to assign a value to the `feature_row` variable.
+In Jekyll, the code `{% assign feature_row = page[include.id] %}` is using the html templating language to assign a value to the `feature_row` variable.
 
 Let's break down the code:
 
-- `{% assign ... %}` is a Liquid tag used for variable assignment.
+- `{% assign ... %}` is a html tag used for variable assignment.
 - `feature_row` is the name of the variable being assigned.
 - `page` is a special object in Jekyll that represents the current page being processed.
 - `[include.id]` is accessing a value from the `page` object using square brackets and `include.id`.
@@ -507,7 +508,7 @@ The purpose and usage of the `feature_row` variable depend on the specific conte
 
 进一步说，我们可以在 `docs/_pages/home.md` 文件中定义一个名称为 `features` 的数组，然后通过如下代码传参给 `_includes/feature_row`：
 
-```Liquid
+```html
 {% include feature_row id="features" %}
 ```
 
@@ -515,7 +516,7 @@ The purpose and usage of the `feature_row` variable depend on the specific conte
 
 通过遍历 `feature_row`，获取数组元素 `f`：
 
-```Liquid
+```html
 {% for f in feature_row %}
 ```
 
@@ -523,7 +524,7 @@ The purpose and usage of the `feature_row` variable depend on the specific conte
 
 1）`image_path`
 
-```Liquid
+```html
 {% if f.image_path %}
   <div class="archive__item-teaser">
     <img src="{{ f.image_path | relative_url }}"
@@ -537,7 +538,7 @@ The purpose and usage of the `feature_row` variable depend on the specific conte
 
 2）`title`
 
-```Liquid
+```html
 {% if f.title %}
   <h2 class="archive__item-title">{{ f.title }}</h2>
 {% endif %}
@@ -545,7 +546,7 @@ The purpose and usage of the `feature_row` variable depend on the specific conte
 
 3）`excerpt`
 
-```Liquid
+```html
 {% if f.excerpt %}
   <div class="archive__item-excerpt">
     {{ f.excerpt | markdownify }}
@@ -555,7 +556,7 @@ The purpose and usage of the `feature_row` variable depend on the specific conte
 
 4）`url`
 
-```Liquid
+```html
 {% if f.url %}
   <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
 {% endif %}
