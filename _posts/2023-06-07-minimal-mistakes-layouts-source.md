@@ -7,6 +7,8 @@ tags:
   - Minimal Mistakes
 ---
 
+{% raw %}
+
 Minimal Mistakes 提供了很多布局文件，为了更好地使用它们，这篇文章简单分析了几个比较常见的布局文件源码。
 
 我们知道，Jekyll Theme 的 Layout 文件会统一放在 `_layouts` 目录下，每个 html 文件分别对应一种布局。
@@ -562,3 +564,4 @@ The purpose and usage of the `feature_row` variable depend on the specific conte
 以上便是 `_includes/feature_row` 的源码，至此，`_layouts/splash.html` 也分析完了。
 
 
+{% endraw %}
