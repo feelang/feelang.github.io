@@ -1,8 +1,8 @@
 ---
-title: 独立产品
+title: 小程序
 layout: single
 classes: wide
-permalink: /products/
+permalink: /weapps/
 feature_row:
   - image_path: /assets/images/weapps/self-discipline-weapp.jpg
     alt: "自律工具箱"

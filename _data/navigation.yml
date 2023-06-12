@@ -1,12 +1,12 @@
 main:
-  - title: "独立产品"
-    url: /products/
-  - title: "技术教程"
+  - title: "小程序"
+    url: /weapps/
+  - title: "APP"
+    url: /apps/
+  - title: "Web"
+    url: /web/
+  - title: "教程"
     url: /tutorials/
-  - title: "分类"
-    url: /categories/
-  - title: "标签"
-    url: /tags/
   - title: "关于"
     url: /about/
 

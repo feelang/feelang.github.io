@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-minimal_mistakes_skin    : "default"
+minimal_mistakes_skin    : dark # contrast # "default"
 
 # Site settings
 locale                   : "zh-CN"
@@ -58,8 +58,6 @@ author:
       url                : "https://blog.csdn.net/feelang"
     - label              : "掘金"
       url                : "https://juejin.cn/user/2805609405883607"
-    - label              : "小红书"
-      url                : "https://www.xiaohongshu.com/user/profile/642b086c000000001102278d"
 footer:
   links:
     - label              : "Github"

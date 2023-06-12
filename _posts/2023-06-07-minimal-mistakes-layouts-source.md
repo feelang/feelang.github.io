@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Jekyll 主题 Minimal Mistakes 布局（Layouts）文件源码分析
+excerpt: Minimal Mistakes 提供了很多布局文件，为了更好地使用它们，这篇文章简单分析了几个比较常见的布局文件源码。 
 categories: Tools
 tags:
   - Jekyll
