@@ -1,3 +1,8 @@
+---
+title: 伪类
+permalink: /tutorials/css/pseudo-classes/
+---
+
 伪类（pseudo classes）要和选择器捆绑使用，用于表示某种状态（state）或关系（relation）。
 
 它的形式如下，选择器后面跟了一个冒号和伪类：

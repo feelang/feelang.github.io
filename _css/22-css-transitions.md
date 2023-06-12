@@ -1,3 +1,8 @@
+---
+title: 过渡动画
+permalink: /tutorials/css/css-transitions/
+---
+
 CSS Transitions 让我们不写一行 JavaScript 代码也能实现过渡动画。
 
 举一个最简单的例子：

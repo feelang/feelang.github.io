@@ -1,3 +1,8 @@
+---
+title: 简写属性
+permalink: /tutorials/css/shorthand-properties/
+---
+
 有些情况下，多个 CSS 属性值可以整合成一串值，每个值之间用空格分隔。
 
 ## 边距

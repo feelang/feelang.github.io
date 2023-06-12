@@ -1,3 +1,8 @@
+---
+title: 类和ID选择器
+permalink: /tutorials/css/class-and-id-selectors/
+---
+
 在 CSS 基础教程中，我们学会了如何使用 HTML 选择器。
 
 这一篇我们继续讲解另外两种选择器 - **class** 和 **ID**。

@@ -1,10 +1,15 @@
+---
+title: 伪元素
+permalink: /tutorials/css/pseudo-elements/
+---
+
 伪元素（pseudo elements）和伪类（pseudo classes）非常相像，都是依附在选择器上使用 `selector:pseudoelement { property: value; }`。
 
 ## 首字母 & 首行
 
 `first-letter` 作用于盒模型元素的第一个字母，`first-line` 作用于最顶部的一行。
 
-![](https://htmldog.com/figures/firstLetterFirstLine.png)
+![](/assets/images/css/firstLetterFirstLine.png)
 
 ```css
 p {

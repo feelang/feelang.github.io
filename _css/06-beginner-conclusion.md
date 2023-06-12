@@ -1,3 +1,8 @@
+---
+title: 总结
+permalink: /tutorials/css/beginner-conclusion/
+---
+
 如果把前面 5 篇教程所提到的 HTML 选择器综合起来使用，就会的到如下 CSS 文件。
 
 可以将他们应用到一个 HTML 文件中，看一下效果。

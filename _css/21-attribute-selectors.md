@@ -1,3 +1,8 @@
+---
+title: 属性选择器
+permalink: /tutorials/css/attribute-selectors/
+---
+
 属性选择器可以定位到拥有某个属性的元素，甚至可以精确到具体的属性值。
 
 ## 属性匹配

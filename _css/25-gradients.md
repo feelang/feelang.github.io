@@ -1,3 +1,8 @@
+---
+title: 渐变
+permalink: /tutorials/css/gradients/
+---
+
 配合 `background` 和 `background-image` 可以实现线性（linear）和辐射（radial）渐变。
 
 ## 线性渐变
@@ -10,7 +15,7 @@ background: linear-gradient(yellow, red);
 
 上例代码表示颜色从 "yellow" 渐变到 "red"。
 
-![](https://htmldog.com/figures/linearGradient.png)
+![](/assets/images/css/linearGradient.png)
 
 还可以指定渐变方向：
 
@@ -38,7 +43,7 @@ background: linear-gradient(20deg, orange, red);
 background: linear-gradient(hsl(0,100%,50%),hsl(60,100%,50%),hsl(120,100%,50%),hsl(180,100%,50%),hsl(240,100%,50%),hsl(300,100%,50%));
 ```
 
-![](https://htmldog.com/figures/linearGradient2.png)
+![](/assets/images/css/linearGradient2.png)
 
 ## 辐射渐变
 
@@ -48,7 +53,7 @@ background: linear-gradient(hsl(0,100%,50%),hsl(60,100%,50%),hsl(120,100%,50%),h
 background: radial-gradient(yellow, green);
 ```
 
-![](https://htmldog.com/figures/radialGradient.png)
+![](/assets/images/css/radialGradient.png)
 
 当然也可以指定颜色辐射的形状：
 
@@ -56,7 +61,7 @@ background: radial-gradient(yellow, green);
 background: radial-gradient(circle, yellow, green);
 ```
 
-![](https://htmldog.com/figures/radialGradient2.png)
+![](/assets/images/css/radialGradient2.png)
 
 
 还可以指定辐射方向：
@@ -92,7 +97,7 @@ background: radial-gradient(at top left, yellow, green);
 background: linear-gradient(135deg, hsl(36,100%,50%) 10%, hsl(72,100%,50%) 60%, white 90%);
 ```
 
-![](https://htmldog.com/figures/linearGradient3.png)
+![](/assets/images/css/linearGradient3.png)
 
 ## 重复渐变
 
@@ -104,10 +109,10 @@ background: repeating-linear-gradient(white, black 15px, white 30px);
 
 > 如果颜色后面不跟数值，默认取值 0，表示起点。
 
-![](https://htmldog.com/figures/repeatingGradient.png)
+![](/assets/images/css/repeatingGradient.png)
 
 ```css
 background: repeating-radial-gradient(black, black 15px, white 15px, white 30px);
 ```
 
-![](https://htmldog.com/figures/repeatingGradient2.png)
+![](/assets/images/css/repeatingGradient2.png)

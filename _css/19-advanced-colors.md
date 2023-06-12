@@ -1,3 +1,8 @@
+---
+title: HSL颜色
+permalink: /tutorials/css/advanced-colors/
+---
+
 我们已经学习过三种定义 CSS 颜色的方式——名称、RGB 以及 16 进制值。
 
 CSS3 又带来了另一种定义颜色的方式——HSL，三个字母分别表示色相（Hue）、饱和度（Saturation）和亮度（Lightness）。

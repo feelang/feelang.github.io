@@ -1,3 +1,8 @@
+---
+title: 边距
+permalink: /tutorials/css/margins-and-padding/
+---
+
 CSS 有两个属性用于指定边距，`margin` 外边距，`padding` 内边距。
 
 ```css

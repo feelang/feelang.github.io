@@ -1,3 +1,8 @@
+---
+title: 变换
+permalink: /tutorials/css/transformations/
+---
+
 本篇要介绍的属性是 `transform`，它可以将 CSS 的盒子变换成另外的形状。
 
 我们知道，CSS 的盒子是方形的，从几何变换的角度来看，`transform` 要做的是改变盒子在 x 轴和 y 轴上的坐标。
@@ -8,7 +13,7 @@
 * `scale` - 缩放
 * `translat` - 平移
 
-![](https://htmldog.com/figures/transform.png)
+![](/assets/images/css/transform.png)
 
 ## 旋转
 
@@ -91,7 +96,7 @@ transform: matrix(2,-0.35,0.35,2,0,0);
 
 以上变换都是围绕盒子的中心位置进行的。`transform-origin` 可以改变变换的坐标原点。
 
-![](https://htmldog.com/figures/transform-origin.png)
+![](/assets/images/css/transform-origin.png)
 
 `transforma-origin` 的取值可以坐标值：
 

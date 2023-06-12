@@ -1,3 +1,8 @@
+---
+title: 颜色
+permalink: /tutorials/css/colors/
+---
+
 CSS 的颜色值有三种定义方法：
 * 颜色名称
 * RGB

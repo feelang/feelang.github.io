@@ -1,3 +1,8 @@
+---
+title: HTML选择器
+permalink: /tutorials/css/selectors-properties-and-values/
+---
+
 HTML 有标签（tags），而 CSS 有选择器（selectors）。
 
 选择器是样式的名字，只能定义在在内部和外部样式表（style sheets）中。

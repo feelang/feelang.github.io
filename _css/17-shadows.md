@@ -1,3 +1,8 @@
+---
+title: 阴影
+permalink: /tutorials/css/shadows/
+---
+
 阴影可以让元素“浮起来”，盒元素和文本都适用。
 
 ## 盒阴影
@@ -22,7 +27,7 @@ box-shadow: 5px 5px 3px 1px #999
 box-shadow: inset 0 0 7px 5px #ddd;
 ```
 
-<img src="https://htmldog.com/figures/boxshadow.png" width="250">
+<img src="/assets/images/css/boxshadow.png" width="250">
 
 
 ## 文本阴影

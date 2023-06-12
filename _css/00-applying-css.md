@@ -1,4 +1,5 @@
 ---
+title: 应用方式
 permalink: /tutorials/css/applying-css/
 ---
 

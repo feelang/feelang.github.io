@@ -1,3 +1,8 @@
+---
+title: 文字
+permalink: /tutorials/css/text/
+---
+
 有许多属性可以控制文本的大小和形状。
 
 ## font-family
@@ -73,7 +78,7 @@ strong {
 
 ## 文本间距
 
-![](https://htmldog.com/figures/spacingOutText.gif)
+![](/assets/images/css/spacingOutText.gif)
 
 `letter-spacing` 和 `word-spacing` 分表表示字母间距和字间距。取值可以是数值或者 `normal`。
 

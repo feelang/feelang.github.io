@@ -1,10 +1,15 @@
+---
+title: 展示
+permalink: /tutorials/css/display/
+---
+
 HTML 元素最常用的展示方式有内联（inline）、区块（block）和不展示（none）。它们可以通过 `display` 属性来控制，对应的值分别为 `inline`、`block` 和 `none`。
 
 ## 内联
 
 `inline` 是按照线的流向来展示元素。例如，锚点（链接）和强调（emphasis）默认就是这种展示方式。
 
-![](https://htmldog.com/figures/displayInline.png)
+![](/assets/images/css/displayInline.png)
 
 例如，下面的代码会改变列表的默认展示方式，所有的列表项变成了左右排列，不再独占一行：
 
@@ -18,7 +23,7 @@ li { display: inline }
 
 相比内联，区块可以更精确地控制盒模型的高度、外边距和内边距。HTML的 标题和段落默认就是这种展示方式。
 
-![](https://htmldog.com/figures/displayBlock.png)
+![](/assets/images/css/displayBlock.png)
 
 如下代码会让导航中的 `<a>` 展示为更大的区块：
 

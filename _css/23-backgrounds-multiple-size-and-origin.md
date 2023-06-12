@@ -1,3 +1,8 @@
+---
+title: 多背景&背景原点
+permalink: /tutorials/css/backgrounds-multiple-size-and-origin/
+---
+
 CSS 提供了很多处理背景的手段。
 
 ## 多背景
@@ -30,7 +35,7 @@ background: url(bg.png), url(bullet.png) 0 50% no-repeat, url(arrow.png) right n
 
 `background-size` 允许我们拉伸或者压缩一张背景图。
 
-![](https://htmldog.com/figures/background-size.jpg)
+![](/assets/images/css/background-size.jpg)
 
 它的取值包括：
 * `auto` - 自适应

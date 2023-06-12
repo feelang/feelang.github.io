@@ -1,3 +1,8 @@
+---
+title: 圆角
+permalink: /tutorials/css/rounded-corners/
+---
+
 圆角会让生硬的背景图变得更圆润，可以起到很好的修饰效果。
 
 ## 边框半径
@@ -13,7 +18,7 @@
 }
 ```
 
-<img src="https://htmldog.com/figures/border-radius.png" width="200"/>
+<img src="/assets/images/css/border-radius.png" width="200"/>
 
 有边框，也可以加圆角：
 
@@ -48,7 +53,7 @@
 
 `border-raiuds` 的四个值从左上角开始，按照顺时针方向，分别作用于左上、右上、右下、左下。
 
-<img src="https://htmldog.com/figures/border-radius_multiple.png" width="200"/>
+<img src="/assets/images/css/border-radius_multiple.png" width="200"/>
 
 如果 `border-radius` 只有两个值，那么第一个值作用于左上↖和右下↘，第二只作用于右上↗和左下↙；如果是三个值，那分别作用于左上、右上和左下、右下。
 
@@ -71,4 +76,4 @@
 }
 ```
 
-<img src="https://htmldog.com/figures/border-radius_nanoo.png" width="200"/>
+<img src="/assets/images/css/border-radius_nanoo.png" width="200"/>

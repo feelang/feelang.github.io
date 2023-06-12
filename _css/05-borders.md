@@ -1,8 +1,13 @@
+---
+title: 边框
+permalink: /tutorials/css/borders/
+---
+
 如果要给元素添加边框，一个 `border-style` 即可搞定。
 
 它的取值有 `solid`，`dotted`，`dashed`，`double`，`groove`，`ridge`，`insect` 和 `outsect`。
 
-![](https://htmldog.com/figures/border-style.png)
+![](/assets/images/css/border-style.png)
 
 `border-width` 用于指定边框粗细，常用会用像素值。
 

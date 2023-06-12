@@ -1,3 +1,8 @@
+---
+title: 布局
+permalink: /tutorials/css/layout/
+---
+
 现代 CSS 的布局可以说已经变得非常简单，遥想当年，人们只能用 HTML tables 来布局，可谓往事不可回首。
 
 ## 位置（Positioning）

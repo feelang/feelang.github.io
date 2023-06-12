@@ -1,3 +1,8 @@
+---
+title: 媒体查询
+permalink: /tutorials/css/media-queries/
+---
+
 我们已经知道，[`@media` 规则](https://blog.csdn.net/FeeLang/article/details/127159059)用于指定特定的媒介，比如 screen, print。
 
 本篇要介绍的特性在指定媒介的基础上更进一步，可以精确到屏幕尺寸。

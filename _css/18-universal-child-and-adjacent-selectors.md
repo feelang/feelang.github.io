@@ -1,3 +1,8 @@
+---
+title: 更多选择器
+permalink: /tutorials/css/universal-child-and-adjacent-selectors/
+---
+
 前面我们学习过 HTML 选择器，类选择器和 ID 选择器，这几种选择器配合起来使用可以让我们精确定位 HTML 元素。本篇要介绍的几个功能更加强大。
 
 ## 全局选择器

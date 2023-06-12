@@ -1,3 +1,8 @@
+---
+title: 背景图
+permalink: /tutorials/css/background-images/
+---
+
 我们知道，html 有一个 `<img>` 标签，可以用来展示图片，提高页面的丰富度。
 
 CSS 的背景图片也有这个功能，但用法却截然不同。
