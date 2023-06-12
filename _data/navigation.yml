@@ -29,3 +29,65 @@ jekyll:
     url: /tutorials/jekyll/collections/
   - title: "数据文件"
     url: /tutorials/jekyll/data-files/
+
+css:
+  - title: 入门篇
+    children:
+      - title: 应用方式
+        url: /tutorials/css/applying-css/
+      - title: HTML选择器
+        url: /tutorials/css/selectors-properties-and-values/
+      - title: 颜色
+        url: /tutorials/css/colors/
+      - title: 文字
+        url: /tutorials/css/text/
+      - title: 边距
+        url: /tutorials/css/margins-and-padding/
+      - title: 边框
+        url: /tutorials/css/borders/
+      - title: 总结
+        url: /tutorials/css/beginner-conclusion/
+  - title: 进阶篇
+    children:
+    - title: 类和ID选择器
+      url: /tutorials/css/class-and-id-selectors/
+    - title: 分组和嵌套
+      url: /tutorials/css/grouping-and-nesting/
+    - title: 伪类
+      url: /tutorials/css/pseudo-classes/
+    - title: 简写属性
+      url: /tutorials/css/shorthand-properties/
+    - title: 背景图
+      url: /tutorials/css/background-images/
+    - title: 具体性
+      url: /tutorials/css/specificity/
+    - title: 展示
+      url: /tutorials/css/display/
+    - title: 伪元素
+      url: /tutorials/css/pseudo-elements/
+    - title: 布局
+      url: /tutorials/css/layout/
+  - title: 高级篇
+    children:
+    - title: 圆角
+      url: /tutorials/css/rounded-corners/
+    - title: 阴影
+      url: /tutorials/css/shadows/
+    - title: 更多选择器
+      url: /tutorials/css/universal-child-and-adjacent-selectors/
+    - title: HSL颜色
+      url: /tutorials/css/advanced-colors/
+    - title: at规则
+      url: /tutorials/css/at-rules/
+    - title: 属性选择器
+      url: /tutorials/css/attribute-selectors/
+    - title: 过渡动画
+      url: /tutorials/css/css-transitions/
+    - title: 多背景&背景原点
+      url: /tutorials/css/backgrounds-multiple-size-and-origin/
+    - title: 变换
+      url: /tutorials/css/transformations/
+    - title: 渐变
+      url: /tutorials/css/gradients/
+    - title: 媒体查询
+      url: /tutorials/css/media-queries/

@@ -107,6 +107,14 @@ defaults:
       # share: true
       sidebar:
         nav: "jekyll"
+  - scope:
+      path: ""
+      type: css
+    values:
+      layout: single
+      toc: true
+      sidebar:
+        nav: "css"
 
 # Collections
 collections:
@@ -117,6 +125,8 @@ collections:
   products:
     output: true
     permalink: /:collection/:path/
+  css:
+    output: true
 
 # Build settings
 theme: minimal-mistakes-jekyll

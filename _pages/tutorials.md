@@ -11,6 +11,13 @@ feature_row:
     url: "/tutorials/jekyll/installing"
     btn_class: "btn--primary"
     btn_label: "开始学习"
+  - image_path: /assets/images/tutorials/jekyll.png
+    alt: "CSS从入门到精通"
+    title: "CSS从入门到精通"
+    excerpt: "由浅入深，轻松掌握CSS"
+    url: "/tutorials/css/applying-css/"
+    btn_class: "btn--primary"
+    btn_label: "开始学习"
 ---
 
 {% include feature_row %}
