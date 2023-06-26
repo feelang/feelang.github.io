@@ -25,6 +25,12 @@ tags:
 
 因此这两天就给这个模块添加了图片分享功能，其它模块等优化好了再加这个功能。
 
+最终效果：
+
+Android | iOS
+:---: | :---:
+![](/assets/imgs/bias-android.jpeg) | ![](/assets/imgs/bias-ios.jpeg)
+
 技术实现方案比较简单：
 
 - 新增一个页面，专门用于生成图片
