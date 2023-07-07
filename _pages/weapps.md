@@ -18,6 +18,10 @@ feature_row:
     # url: "/products/senluo-nihongo/"
     # btn_class: "btn--primary"
     # btn_label: "更多"
+  - image_path: /assets/images/weapps/tongcheng-weapp.jpg
+    alt: 童程育儿
+    title: 童程育儿
+    excerpt: 用爱陪伴、你我童程
   - image_path: /assets/images/weapps/hefeng-zen-weapp.jpg
     alt: "和风禅语"
     title: "和风禅语"
