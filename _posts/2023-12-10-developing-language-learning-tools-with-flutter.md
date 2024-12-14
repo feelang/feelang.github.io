@@ -13,11 +13,12 @@ tags:
 
 这个现象可能存在，但不会影响我继续使用 Flutter 的决心。
 
-一是个人精力有限，无法顾及多端开发。
+原因有两点：
 
-二是从之前的经验来看，Flutter 足够用于应付小型应用。
+1. 个人精力有限，无法顾及多端开发。
+2. 从之前的经验来看，Flutter 足够用于应付小型应用。
 
-况且，Flutter 新推出的两个 App Solution 和我目前的产品方向高度契合：
+除此之外，Flutter 新推出的两个 App Solution 和我目前的产品方向高度契合：
 
 - 资讯类（日语/历史）App - [Flutter News Toolkit](https://docs.flutter.dev/resources/news-toolkit)
 - 学习类小游戏 - [Casual Games Toolkit](https://docs.flutter.dev/resources/games-toolkit)
@@ -30,7 +31,7 @@ Flutter 好像成了不二之选。
 
 具体要如何执行呢？
 
-1) 熟练掌握 Flutter 常用的 widgets 和 packages：
+**1) 熟练掌握 Flutter 常用的 widgets 和 packages：**
 
 - [Widget catalog](https://docs.flutter.dev/ui/widgets)
 - [Flutter Widget of the Week](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
@@ -40,7 +41,7 @@ Flutter 好像成了不二之选。
 
 暂时用 Notion 来记录学习成果，等内容完善之后，整理成文本类教程。
 
-2) 制作日语内容生成工具——[senluo_japanese_cms](https://github.com/Hefengcloud/senluo_japanese_cms)
+**2) 制作日语内容生成工具——[senluo_japanese_cms](https://github.com/Hefengcloud/senluo_japanese_cms)**
 
 - 假名
 - 文法
@@ -51,7 +52,7 @@ Flutter 好像成了不二之选。
 - 常用表达
 - 敬语
 
-3) 制作日语学习并完成上线
+**3) 制作日语学习 APP 并完成上线**
 
 - 日语五十音
 - 日语语法

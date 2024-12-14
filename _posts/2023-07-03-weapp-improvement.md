@@ -13,14 +13,18 @@ tags:
 ## 自律工具箱
 
 * [x] 用卡片的形式展示知识，沉浸式体验
-* [x] 可分享
-* 可收藏
+* [ ] 可收藏
 - 增加更多内容
-    - [x] 50 Recognitive Biases
+    - [x] 50 cognitive Biases
+        * [x] 可分享
         * [ ] 增加中文
     - [x] The 7 Habits of Highly Effective People
+        * [ ] 增加中文
+        * [ ] 增加互动效果
     - [x] Principles
+        * [ ] 增加详情页
     - [x] Business
+        * [ ] 分享功能
     - [ ] The Almanack of Naval Ravikant: A Guide to Wealth and Happiness
 
 ## 森罗社

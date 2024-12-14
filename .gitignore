@@ -9,3 +9,5 @@ assets/.DS_Store
 venv
 
 Gemfile.lock
+
+.DS_Store

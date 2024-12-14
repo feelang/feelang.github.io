@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-minimal_mistakes_skin    : dark # contrast # "default"
+minimal_mistakes_skin    : neon # contrast # "default"
 
 # Site settings
 locale                   : "zh-CN"
@@ -29,7 +29,7 @@ name                     : "feelang"
 description              : "热衷知识类小产品的全栈工程师"
 email                    : feelangcpp@gmail.com
 baseurl                  : "" # the subpath of your site, e.g. /blog
-url                      : "https://feelang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url                      : "https://feelang.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 og_image                 : /assets/images/site-logo.png
 timezone                 : Asia/Shanghai
 analytics:
