@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-minimal_mistakes_skin    : neon # contrast # "default"
+minimal_mistakes_skin    : contrast # contrast # "default"
 
 # Site settings
 locale                   : "zh-CN"
