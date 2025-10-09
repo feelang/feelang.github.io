@@ -41,18 +41,31 @@ Flutter 好像成了不二之选。
 
 暂时用 Notion 来记录学习成果，等内容完善之后，整理成文本类教程。
 
-**2) 制作日语内容生成工具——[senluo_japanese_cms](https://github.com/Hefengcloud/senluo_japanese_cms)**
+**2) 制作日语内容生成工具——[senluo_japanese_cms](https://github.com/feelang/senluo_japanese_cms)**
 
-- 假名
-- 文法
-- 单词
-- 汉字
-- 习语
-- 拟声拟态词
-- 常用表达
-- 敬语
+- [x] 假名
+- [x] 文法
+- [x] 单词
+- [x] 汉字
+- [x] 习语
+- [x] 拟声拟态词
+- [ ] 常用表达
+- [ ] 敬语
 
 **3) 制作日语学习 APP 并完成上线**
 
 - 日语五十音
 - 日语语法
+
+
+---
+
+> 2025.10.9 update
+
+我决定弃用 Flutter，原因如下：
+
+- 生态跟不上 iOS 的进化脚步（比如「毛玻璃」特效）
+- Android 国内市场赚不到钱，只做 iOS 就行
+- Flutter 做的 iOS App 提审很麻烦
+
+
