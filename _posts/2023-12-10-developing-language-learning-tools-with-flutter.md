@@ -1,10 +1,6 @@
 ---
-layout: single
 title: Flutter 和日语
-categories: programming
-tags:
-    - Flutter
-    - 日语学习
+date: 2023-12-10
 ---
 
 > Updated at 2025-10-09

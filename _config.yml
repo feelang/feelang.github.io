@@ -18,18 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-minimal_mistakes_skin    : contrast # contrast # "default"
+minimal_mistakes_skin    : default # contrast # "default"
 
 # Site settings
 locale                   : "zh-CN"
-title                    : "feelang的技术博客"
+title                    : "feelang"
 title-separator          : "-"
-subtitle                 : "分享全栈开发知识"
+subtitle                 : "Business thinking"
 name                     : "feelang"
-description              : "热衷知识类小产品的全栈工程师"
+description              : "Company of one"
 email                    : feelangcpp@gmail.com
 baseurl                  : "" # the subpath of your site, e.g. /blog
-url                      : "https://feelang.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+url                      : "https://feelang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 og_image                 : /assets/images/site-logo.png
 timezone                 : Asia/Shanghai
 analytics:
@@ -45,27 +45,12 @@ author:
   name                   : "feelang"
   avatar                 : "/assets/images/site-logo.png"
   bio                    : "Flutter | Python | Arduino"
-  location               : "杭州"
+  location               : "Hangzhou, Zhejiang, China"
   email                  : "feelangcpp@gmail.com"
   links:
     - label              : "Github"
       icon               : "fab fa-fw fa-github"
       url                : "https://github.com/feelang"
-    - label              : "微博"
-      icon               : "fab fa-fw fa-weibo"
-      url                : "https://weibo.com/u/1670598115"
-    - label              : "CSDN"
-      url                : "https://blog.csdn.net/feelang"
-    - label              : "掘金"
-      url                : "https://juejin.cn/user/2805609405883607"
-footer:
-  links:
-    - label              : "Github"
-      icon               : "fab fa-fw fa-github"
-      url                : "https://github.com/feelang"
-    - label              : "微博"
-      icon               : "fab fa-fw fa-weibo"
-      url                : "https://weibo.com/u/1670598115"
 include:
   - _pages
 

@@ -1,9 +1,6 @@
 ---
-layout: single
 title: Flutter 游戏框架 Flame 的学习计划
-categories: programming
-tags:
-    - Flutter
+date: 2023-07-04
 ---
 
 > 让知识更有趣

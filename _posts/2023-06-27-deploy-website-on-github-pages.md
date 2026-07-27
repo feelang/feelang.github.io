@@ -1,9 +1,6 @@
 ---
 title: 如何用 Github Pages 免费部署静态站点
-categories: website
-tags:
-  - Github
-  - Jekyll
+date: 2023-06-27
 ---
 
 > 最低成本部署静态网站
