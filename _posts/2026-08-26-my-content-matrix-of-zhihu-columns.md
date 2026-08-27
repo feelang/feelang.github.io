@@ -33,3 +33,11 @@ title: 用八个知乎专栏构建内容矩阵
 
 这八个专栏未来会催生出怎样的化学反应，目前仍是未知数。那就边写边看吧。还是那句话：Ideas are cheap, execution is everything.
 
+---
+
+知乎相关文章：
+
+- [我与知乎](/2026/08/21/me-and-zhihu.html)
+- [关于「知乎付费专栏」的思考](/2025/09/29/thinking-about-zhihu-paid-column.html)
+- [知乎专栏的妙用——突破创作瓶颈](/2026/08/22/the-clever-uses-of-zhihu-columns.html)
+- [用知乎专栏构建内容矩阵](/2026/08/26/my-content-matrix-of-zhihu-columns.html)
