@@ -1,6 +1,5 @@
 ---
 title: Flutter 和日语
-date: 2023-12-10
 ---
 
 > Updated at 2025-10-09
