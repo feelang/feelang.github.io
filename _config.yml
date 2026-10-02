@@ -11,8 +11,6 @@ github_username: feelang
 location: "Hangzhou"
 bio: "Entrepreneur, language enthusiast, and software engineer."
 google_analytics: "G-EMB5R38212"
-disqus:
-  shortname: feelang-github-io
 
 include:
   - _pages
@@ -31,7 +29,6 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true
   # Render archived theme source examples as literal Liquid code.
   - scope:
       path: "post-backup/2023-05-27-jekyll-theme-minimal-mistakes.md"
