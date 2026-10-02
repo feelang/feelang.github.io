@@ -56,7 +56,7 @@ title: 如何用 Github Pages 免费部署静态站点
 
 这些静态网站生成器都具有各自的特点和优势，可以根据自己的需求和技术偏好选择适合的工具来构建静态网站。
 
-本文就以比较老牌的 Jekyll 为例。如果对 Jekyll 不熟悉，可以参考我写的 [Jekyll 中文教程](https://feelang.xyz/tutorials/jekyll/installing/)，内容浅显易懂，一学就会。
+本文就以比较老牌的 Jekyll 为例。
 
 我们第一步中新建的 Github 仓库 clone 到本地，打开终端，进入目录，执行如下命令：
 
@@ -118,7 +118,7 @@ www | CNAME | 默认 | feelang.github.io | 10分钟
 
 这次一个非常简单的静态站点就部署完成。
 
-如果想要进一步修改网站内容，可以跟着 [Jekyll 中文教程](https://feelang.xyz/tutorials/jekyll/installing/) 修改配置项。
+如果想要进一步修改网站内容，可以修改对应的配置项。
 
 那么什么是 CNAME 呢？
 

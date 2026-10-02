@@ -120,8 +120,6 @@ data: {
 `overflow: hidden;` | 这将隐藏超出元素边界的任何内容。如果内容超出元素的尺寸，这将防止出现滚动条。
 `transform: translate3d(0, 0, 0);` | 这将对元素应用一个 3D 平移变换。在这种情况下，它将元素在 X 和 Y 轴上平移 0 像素。这可以用于在某些设备上触发硬件加速。
 
-> 对 CSS 不熟悉的读者，可以参考我写的 [CSS 全系列教程](https://feelang.xyz/tutorials/css/applying-css/)。
-
 再来看 `.swiper-item`：
 
 ```css

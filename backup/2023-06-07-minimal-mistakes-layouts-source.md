@@ -343,7 +343,7 @@ Minimal Mistakes 官网首页便是使用了这个布局。
 
 下面简单分析下源码。
 
-主题源码的 `docs/_pages/home.md` 文件中，**[Front Matter](/tutorials/jekyll/font-matter-and-yaml)** 定义了一个 `header` 变量：
+主题源码的 `docs/_pages/home.md` 文件中，**Front Matter** 定义了一个 `header` 变量：
 
 ```yaml
 header:

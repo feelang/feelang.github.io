@@ -1,139 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: "feelang"
+author: "feelang"
+description: "Company of one"
+email: feelangcpp@gmail.com
+lang: zh-CN
+baseurl: ""
+url: "https://feelang.github.io"
+timezone: Asia/Shanghai
+github_username: feelang
+location: "Hangzhou"
+bio: "Entrepreneur, language enthusiast, and software engineer."
+google_analytics: "G-EMB5R38212"
+disqus:
+  shortname: feelang-github-io
 
-minimal_mistakes_skin    : default # contrast # "default"
-
-# Site settings
-locale                   : "zh-CN"
-title                    : "feelang"
-title-separator          : "-"
-subtitle                 : "Business thinking"
-name                     : "feelang"
-description              : "Company of one"
-email                    : feelangcpp@gmail.com
-baseurl                  : "" # the subpath of your site, e.g. /blog
-url                      : "https://feelang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-og_image                 : /assets/images/site-logo.png
-timezone                 : Asia/Shanghai
-analytics:
-  provider               : "google-gtag"
-  google:
-    tracking_id          : "G-EMB5R38212"
-    anonymize_ip         : false # default
-comments:
-  provider               : "disqus"
-  disqus:
-    shortname            : 'feelang-github-io'
-author:
-  name                   : "feelang"
-  avatar                 : "/assets/images/site-logo.png"
-  bio                    : "Entrepreneur, language enthusiast, and software engineer."
-  location               : "Hangzhou, Zhejiang, China"
-  email                  : "feelangcpp@gmail.com"
-  links:
-    - label              : "Github"
-      icon               : "fab fa-fw fa-github"
-      url                : "https://github.com/feelang"
 include:
   - _pages
 
-# Search
-search                   : true
-lunr:
-  search_within_pages    : true
-  search_full_content    : false
+header_pages:
+  - _pages/about.md
 
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
-  # _posts
+      layout: page
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: post
       comments: true
-      toc: false
-      toc_label: '目录'
-      toc_sticky: true
-  # _jekyll (collection)
+  # Render archived theme source examples as literal Liquid code.
   - scope:
-      path: ""
-      type: jekyll
+      path: "backup/2023-05-27-jekyll-theme-minimal-mistakes.md"
     values:
-      layout: single
-      toc: true
-      toc_label: '目录'
-      toc_sticky: true
-      author_profile: false
-      # share: true
-      sidebar:
-        nav: "jekyll"
+      render_with_liquid: false
   - scope:
-      path: ""
-      type: css
+      path: "backup/2023-06-07-minimal-mistakes-layouts-source.md"
     values:
-      layout: single
-      toc: true
-      sidebar:
-        nav: "css"
-
-# Collections
-collections:
-  jekyll:
-    output: true
-    sort_by: lesson
-    permalink: /tutorials/:collection/:path/
-  products:
-    output: true
-    permalink: /:collection/:path/
-  css:
-    output: true
+      render_with_liquid: false
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-seo-tag

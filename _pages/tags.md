@@ -1,7 +1,13 @@
 ---
-layout: tags
+layout: page
 title: 标签
-classes: wide
 permalink: /tags/
-author_profile: true
 ---
+
+{% for group in site.tags %}
+## {{ group[0] }}
+
+{% for post in group[1] %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
+{% endfor %}
