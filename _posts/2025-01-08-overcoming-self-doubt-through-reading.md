@@ -65,7 +65,7 @@ Customer Success How Innovative Companies Are R : How Innovative Companies Are R
 
 开始主动退出那些从「理性」角度来看没什么意义的圈子。
 
-→ [净化社交圈](/2024/01/09/purify-social-environment.html)
+→ [净化社交圈]({% post_url 2024-01-09-simplifying-my-social-circle %})
 
 然后慢慢重新构建新的社交圈。
 

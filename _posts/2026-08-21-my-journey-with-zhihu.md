@@ -28,4 +28,4 @@ title: 我与知乎
 
 知乎相关：
 
-- [关于「知乎付费专栏」的思考](/2025/09/29/thinking-aboug-zhihu-paid-column.html)
+- [关于「知乎付费专栏」的思考]({% post_url 2025-09-29-zhihu-paid-columns-for-learning %})

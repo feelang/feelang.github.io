@@ -34,11 +34,11 @@ defaults:
       comments: true
   # Render archived theme source examples as literal Liquid code.
   - scope:
-      path: "backup/2023-05-27-jekyll-theme-minimal-mistakes.md"
+      path: "post-backup/2023-05-27-jekyll-theme-minimal-mistakes.md"
     values:
       render_with_liquid: false
   - scope:
-      path: "backup/2023-06-07-minimal-mistakes-layouts-source.md"
+      path: "post-backup/2023-06-07-minimal-mistakes-layouts-source.md"
     values:
       render_with_liquid: false
 

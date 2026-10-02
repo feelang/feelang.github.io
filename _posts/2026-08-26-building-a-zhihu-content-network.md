@@ -37,7 +37,7 @@ title: 用八个知乎专栏构建内容矩阵
 
 知乎相关文章：
 
-- [我与知乎](/2026/08/21/me-and-zhihu.html)
-- [关于「知乎付费专栏」的思考](/2025/09/29/thinking-about-zhihu-paid-column.html)
-- [知乎专栏的妙用——突破创作瓶颈](/2026/08/22/the-clever-uses-of-zhihu-columns.html)
-- [用知乎专栏构建内容矩阵](/2026/08/26/my-content-matrix-of-zhihu-columns.html)
+- [我与知乎]({% post_url 2026-08-21-my-journey-with-zhihu %})
+- [关于「知乎付费专栏」的思考]({% post_url 2025-09-29-zhihu-paid-columns-for-learning %})
+- [知乎专栏的妙用——突破创作瓶颈]({% post_url 2026-08-22-overcoming-writers-block-with-zhihu %})
+- [用知乎专栏构建内容矩阵]({% post_url 2026-08-26-building-a-zhihu-content-network %})
