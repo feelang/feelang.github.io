@@ -27,3 +27,11 @@ title: 内容创业三角形
 好在，我找到了解法：**以项目的形式管理工作，集中火力，连续作战**。
 
 既然内容已经全部托管在 Github 上，我就直接使用它内置的 Projects 来管理项目。内容、代码、项目无缝衔接，当年做程序员时养成的工程思维，终于又派上了用场。
+
+---
+
+**相关推文：**
+
+- [我的「内容创业」之路](/2025/09/29/my-content-business-journey.html)
+- [正式成为一名独立日语老师](/2025/10/01/becoming-an-independent-japanese-teacher.html)
+- [达成一个小里程碑：跑通商业闭环](/2025/10/28/building-a-sustainable-content-business.html)
