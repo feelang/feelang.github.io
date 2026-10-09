@@ -78,7 +78,7 @@ Flutter 好像成了不二之选。
 
 > 25.10.9
 > 
-> Notion 已经弃用，改用 Obsidian。另外，单纯积累笔记没有意义，不如直接用起来，或者记到脑子里。留在笔记软件里只会成为”死“内容，还不如遇到问题去问 AI。
+> Notion 已经弃用，改用 Obsidian。另外，单纯积累笔记没有意义，不如直接用起来，或者记到脑子里。留在笔记软件里只会成为」死「内容，还不如遇到问题去问 AI。
 
 **2) 制作日语内容生成工具——[senluo_japanese_cms](https://github.com/feelang/senluo_japanese_cms)**
 

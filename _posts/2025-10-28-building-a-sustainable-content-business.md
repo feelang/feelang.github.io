@@ -4,9 +4,9 @@ title: 达成一个小里程碑：跑通商业闭环
 
 当我用 Claude Code 借助 Flutter 终于搞定了四个社媒渠道的日常运营时，我知道，这件事成了。
 
-从23年4月发布第一篇关于日语学习的文章（[干货满满的日语自学经验](https://everjapan.com/japanese/how-to-learn-japanese-efficently-and-effectively/)）到现在，针对日语知识的 Content Marketing ，我借助 Vibe Coding 把能够落地的 idea 一一实现掉，现在反而有点“江郎才尽”的感觉。
+从23年4月发布第一篇关于日语学习的文章（[干货满满的日语自学经验](https://everjapan.com/japanese/how-to-learn-japanese-efficently-and-effectively/)）到现在，针对日语知识的 Content Marketing ，我借助 Vibe Coding 把能够落地的 idea 一一实现掉，现在反而有点「江郎才尽」的感觉。
 
-从 4P 的角度来看，我这盘“小生意”算是跑通闭环了，飞轮也开始转起来。
+从 4P 的角度来看，我这盘「小生意」算是跑通闭环了，飞轮也开始转起来。
 
 - **Product**: PDF / 付费专栏
 - **Price**
@@ -22,7 +22,7 @@ title: 达成一个小里程碑：跑通商业闭环
 
 接下来真正考验的，是**执行力** —— 这也许正是我从 Perceiving 走向 Judging 的催化剂。
 
-但为了实现“成为一名成功商人”的人生目标，我需要变为 J 人，然后再变回 P 人。
+但为了实现「成为一名成功商人」的人生目标，我需要变为 J 人，然后再变回 P 人。
 
 相比于执行力，我更希望自己拥有丰富的想象力。
 

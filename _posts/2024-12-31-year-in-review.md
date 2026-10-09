@@ -105,7 +105,7 @@ title: 2024年终总结
 
 ### 汉语
 
-现代汉语学鼻祖高本汉（瑞典人）在『汉语的本质和历史』书中写到：
+现代汉语学鼻祖高本汉（瑞典人）在「汉语的本质和历史」书中写到：
 
 > 精通汉语只有一个办法，那就是读书、读书、再读书，使你习惯中国人的思维方式，直到你能像中国那样自动思考为止。
 
@@ -129,7 +129,7 @@ title: 2024年终总结
 
 更惭愧地是，没有输出任何英文相关的内容。
 
-不过为了辅导小朋友学习英文，我正在读『Help Your Kids with English』。
+不过为了辅导小朋友学习英文，我正在读「Help Your Kids with English」。
 
 并打算以此为契机，输出一套写给小朋友看的英语语法书。
 
@@ -320,9 +320,9 @@ Python | 小工具、命令行应用
 
 其中，以下三套书值得重点推荐，它们帮我构建了一套完整的知识体系：
 
-- [『向下扎根！德國教育的公民思辨課』](https://book.douban.com/series/47866)
-- [『大学的邀请系列』](https://book.douban.com/series/34073)
-- [『Help Your Kids With Series』](https://www.dk.com/ca/promotion/help-your-kids-with-series/)
+- [「向下扎根！德國教育的公民思辨課」](https://book.douban.com/series/47866)
+- [「大学的邀请系列」](https://book.douban.com/series/34073)
+- [「Help Your Kids With Series」](https://www.dk.com/ca/promotion/help-your-kids-with-series/)
 
 ### 语言学（13本）
 
