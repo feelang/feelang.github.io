@@ -1,5 +1,5 @@
 ---
-title: Company of One (3) —— AI Agents
+title: 用 AI 把时间留给读书和思考
 ---
 
 在利用新技术提升效率这件事上，我总慢别人半拍，后知后觉。
