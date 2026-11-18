@@ -1,5 +1,5 @@
 ---
-title: 内容创业三角形
+title: 内容创业三角形：用 AI 串起内容、产品和营销
 ---
 
 ![内容创业三角形](/assets/images/content-entrepreneurship-triangle.png)
