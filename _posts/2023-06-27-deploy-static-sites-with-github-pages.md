@@ -8,7 +8,17 @@ title: 用 GitHub Pages 部署 Jekyll 站点：从建仓到绑定域名
 
 我用个人账号 `feelang` 建了一个名为 `feelang.github.io` 的仓库。做个人或组织的主页时，仓库名用对应的用户名或组织名加上 `.github.io`。
 
-静态网站生成器会把文章和模板合成网页。我用的是 Jekyll，写文章时只需要准备 Markdown，布局和样式可以留给模板。Hugo、Hexo、Eleventy、Gatsby、VuePress、Pelican 和 MkDocs 也能用来做静态站点，可以按熟悉的语言和站点用途选。
+静态网站生成器会把文章和模板合成网页。我用的是 Jekyll，写文章时只需要准备 Markdown，布局和样式可以留给模板。选工具时，可以从自己熟悉的语言和站点用途出发。除了 Jekyll，原来列出的几个选择也各有侧重。
+
+| 工具 | 特点 |
+| --- | --- |
+| Hugo | 用 Go 编写，有丰富的主题。 |
+| Gatsby | 基于 React，可用 GraphQL 读取数据。 |
+| Hexo | 基于 Node.js，有不少面向博客的主题和插件。 |
+| VuePress | 用 Markdown 写内容，也能在文档中用 Vue 组件。 |
+| Eleventy | 支持多种模板语言，也能直接使用 Markdown 和 HTML。 |
+| Pelican | 用 Python 编写，适合从文本文件生成站点。 |
+| MkDocs | 用 Python 编写，主要用于文档站点。 |
 
 把空仓库克隆到本地，进入仓库目录。在准备好 Ruby 并装好 Jekyll 和 Bundler 后，生成初始站点并打开预览：
 

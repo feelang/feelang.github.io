@@ -4,30 +4,30 @@ title: 从 Flutter 到 SwiftUI：我为什么换了日语 App 的做法
 
 > 2025 年 10 月 9 日更新
 
-两年前，我原本打算用 Flutter 做日语 App。它后来帮我做出了内容工具，但开发面向学习者的 App，我现在更想用 SwiftUI。回头看，当时选 Flutter 有几个很实际的原因：
+我在想，**当初为什么会固执地选择 Flutter？**
 
-- 路径依赖，我在最后一家公司上班时用 Flutter 开发过一款同时上线了 Google Play 和 App Store 的 App 产品，积累了一定开发经验。
+- 路径依赖，我在最后一家公司上班时用 Flutter 开发过一款同时上线了 GooglePlay 和 AppStore 的 App 产品，积累了一定开发经验。
 - Android 开发出身，对 Google 产品天然抱有好感（比如 Material Design）。
-- 当时高估了 App 在起步阶段的作用，后来才发现，先找到能接触读者的渠道更要紧。
+- 商业经验不足，高估了 App 在商业起步阶段的价值，「产品本位思想」作祟。实际上，早期更重要的是渠道。
 - 被 Flutter 的营销策略所吸引，想照搬到日语业务。
 
-## 为什么把新 App 转到 iOS 原生
+那现在**为什么决定用 SwiftUI 开发新 App 呢？**
 
 - 生态跟不上 iOS 的进化脚步（比如「毛玻璃」、Apple Watch）。
 - Android 国内市场赚不到钱，只做 iOS 就行。
 - Flutter 做的 iOS App 提审很麻烦。
-- 把精力集中在 iOS，也便于我做出更贴合这个平台的体验。
+- iOS 生态更繁荣、更有噱头、更有性价比。
 
 过去两年**Flutter 帮我创造了哪些价值？**
 
-- 开发了 Mac 桌面应用 SenluoStudio，有效支撑起社媒运营。（现在也会请 Claude Code 帮忙维护）
+- 开发了 Mac 桌面应用 SenluoStudio，有效支撑起社媒运营。（现在 work with Claude Code，非常高效）
 - 参考 Flutter Widget of the Week 上线了「JLPT 语法讲义」系列视频，微信视频号涨粉显著。
 
-以后，五十音和语法 App 我打算用 SwiftUI 做。Flutter 做出来的 SenluoStudio 和视频流程，仍然能继续用。
+**全面拥抱 iOS 生态，用 SwiftUI 开发 App 产品！**
 
 ---
 
-> 以下是 2023 年底的原计划，引用块是我在 2025 年补写的回看。
+> 以下内容写于 2023 年底。
 
 听说很多企业正在弃用 Flutter，重回原生。
 
@@ -77,8 +77,8 @@ Flutter 好像成了不二之选。
 暂时用 Notion 来记录学习成果，等内容完善之后，整理成文本类教程。
 
 > 25.10.9
-> 
-> Notion 已经弃用，改用 Obsidian。另外，单纯积累笔记没有意义，不如直接用起来，或者记到脑子里。如果记完就放着不看，遇到问题时干脆重新查，或者请 AI 帮我理清。
+>
+> Notion 已经弃用，改用 Obsidian。另外，单纯积累笔记没有意义，不如直接用起来，或者记到脑子里。留在笔记软件里只会成为「死」内容，还不如遇到问题去问 AI。
 
 **2) 制作日语内容生成工具——[senluo_japanese_cms](https://github.com/feelang/senluo_japanese_cms)**
 
@@ -103,4 +103,3 @@ Flutter 好像成了不二之选。
 
 - 日语五十音
 - 日语语法
-
